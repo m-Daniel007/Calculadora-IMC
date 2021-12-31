@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Syne Mono', monospace;
+    height: 100vh;
+    background:#000;
+}
+
+.container{
+    width: 325px;
+    height: 550px;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+   background: rgba(255, 255, 107, 0.623) ;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(243, 239, 18);
+    margin-top: 15px;
+    padding: 15px;
+    border-bottom: 3px solid #000;
+    text-shadow: 0px 1px 5px #fff;
+
+}
+span{
+    color: #000;
+    margin-left: 10px;
+}
+.dados{
+    width: 80%;
+    padding: 5px;
+    margin: 5px auto;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(243, 239, 18);
+   
+}
+.label{
+    margin: auto;
+}
+
+
+input{
+    margin-top: 8px;
+    align-items: center;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+
+#btn{
+    width: 185px;
+    height: 35px;
+    border-radius: 25px;
+    color: rgb(243, 239, 18);
+    background: #000;
+    font-size: 25px;
+    margin-left: 75px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #fff;
+}
+#btn:hover{
+   width: 195px;
+   font-size:28px ;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    width: 280px;
+    height: 150px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow:  0px 0px 10px #fff;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.7em;
+    margin-left: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-shadow: 2px 10px 0px rgba(145, 77, 77, 0.308);
+   
+
+    
+}
